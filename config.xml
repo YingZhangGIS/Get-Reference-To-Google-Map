@@ -1,0 +1,13 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Python Addin</Name><AddInID>{2cc14dcc-c1df-4ea5-9e6e-d7074f496a47}</AddInID><Description>New Addin</Description><Version>0.1</Version><Image /><Author>Untitled</Author><Company>Untitled</Company><Date>05/30/2016</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="GoogleBing_addin.py" namespace="GoogleBing_addin"><ArcMap>
+    <Commands>
+        <Tool caption="GoogleMap" category="Python Addin" class="ToolClass2" id="GoogleBing_addin.tool" image="Images\unnamed.png" message="GoogleMap" tip="GoogleMap"><Help heading="GoogleMap">GoogleMap</Help></Tool>
+        <Tool caption="Google Image" category="Python Addin" class="ToolClass4" id="GoogleBing_addin.tool_1" image="Images\FP_Satellite_icon.svg.png" message="Google Image" tip="Google Image"><Help heading="Google Image">Google Image</Help></Tool>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="Google/Bing Reference" category="Python Addin" id="GoogleBing_addin.toolbar" showInitially="true"><Items><Tool refID="GoogleBing_addin.tool" /><Tool refID="GoogleBing_addin.tool_1" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
